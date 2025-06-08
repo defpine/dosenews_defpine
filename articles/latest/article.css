@@ -27,7 +27,8 @@ body {
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
-    width: max-content;
+    display: flex;
+    justify-content: center;
 }
 
 .body_article_news {
@@ -79,26 +80,24 @@ body {
 }
 
 .body_article_ads {
+    margin-left: 10px;
     display: inline-block;
 }
 
-.body_article_ad_1 {
+#body_article_vertical_ad_1 {
     margin-bottom: 10px;
     width: 200px;
     height: 500px;
-    background-color: #FF0000;
 }
 
-.body_article_ad_2 {
+#body_article_vertical_ad_2 {
     margin-bottom: 10px;
     width: 200px;
     height: 500px;
-    background-color: #00FF00;
 }
 
-.body_article_ad_3 {
+#body_article_vertical_ad_3 {
     margin-bottom: 10px;
     width: 200px;
     height: 500px;
-    background-color: #0000FF;
 }
