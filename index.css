@@ -38,7 +38,7 @@ body {
     vertical-align: top;
 }
 
-.horizon_rule_latest, .horizon_rule_history {
+.horizon_rule_latest {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -48,7 +48,56 @@ body {
     font-size: 16px;
 }
 
-.horizon_rule_latest::before, .horizon_rule_latest::after, .horizon_rule_history::before, .horizon_rule_history::after {
+.horizon_rule_history {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-basis: 100%;
+    font-size: 16px;
+}
+
+.horizon_rule_latest::before {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    background-color: #00000035;
+    font-size: 0px;
+    content: "";
+    flex-grow: 1;
+    line-height: 0px;
+}
+
+.horizon_rule_latest::after {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    background-color: #00000035;
+    font-size: 0px;
+    content: "";
+    flex-grow: 1;
+    line-height: 0px;
+}
+
+.horizon_rule_history::before {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    background-color: #00000035;
+    font-size: 0px;
+    content: "";
+    flex-grow: 1;
+    line-height: 0px;
+}
+
+.horizon_rule_history::after {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
